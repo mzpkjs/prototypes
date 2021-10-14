@@ -1,0 +1,16 @@
+{
+  "name": "overlay-editor",
+  "private": true,
+  "scripts": {
+    "serve": "parcel index.html  --global application",
+    "serve:share": "parcel index.html  --global application --host 0.0.0.0",
+    "build": "parcel build index.html  --global application  --out-dir ./docs/ --public-url /prototype--visual-layer-editor"
+  },
+  "devDependencies": {
+    "@types/node": "14.0.1",
+    "parcel-bundler": "1.12.4",
+    "sass": "^1.26.5",
+    "tslib": "2.0.0",
+    "typescript": "3.9.2"
+  }
+}
